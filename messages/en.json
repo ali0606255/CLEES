@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "siteName": "Clees",
+    "defaultTitle": "Clees | Furnished Apartment Management & Cleaning in Abha",
+    "titleTemplate": "%s | Clees",
+    "home": {
+      "title": "Clees | Furnished Apartment Management & Cleaning in Abha",
+      "description": "Hand Clees your keys and we handle everything: hotel-grade cleaning, Airbnb & Gathern listings, pricing, guest care and monthly reports. Get a free evaluation."
+    },
+    "owners": {
+      "title": "For Owners — Full Management for Your Furnished Apartment",
+      "description": "Let your Abha apartment earn for you, effortlessly. Full management, monthly reports and an income estimator. Get a free evaluation."
+    },
+    "services": {
+      "title": "Services — Cleaning, Preparation & Full Management",
+      "description": "Hotel-grade cleaning after every guest, fresh linen, hospitality supplies and full booking & guest management in Abha."
+    },
+    "stays": {
+      "title": "Our Stays — Clean Furnished Apartments in Abha",
+      "description": "Book a clean, reliable furnished apartment in Abha. Filter by neighborhood and bedrooms and book directly on Airbnb or Gathern."
+    },
+    "about": {
+      "title": "About — The Clees Story",
+      "description": "Clees is an Abha-based company managing furnished apartments with hotel-grade cleanliness and full transparency for owners."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Reach Clees on WhatsApp, phone or email, or send us a message directly."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Clees collects, uses and protects your personal data in line with the Saudi Personal Data Protection Law."
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "description": "Terms and conditions for using the Clees website and services."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "owners": "For Owners",
+    "services": "Services",
+    "stays": "Stays",
+    "about": "About",
+    "contact": "Contact",
+    "evaluate": "Evaluate my place",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "switchLanguage": "العربية",
+    "switchLanguageLabel": "التبديل إلى العربية",
+    "mainNav": "Main navigation"
+  },
+  "common": {
+    "evaluateFree": "Get a free evaluation",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "whatsappFloat": "Message us on WhatsApp",
+    "whatsappGreeting": "Hi, I'd like to ask about Clees services",
+    "learnMore": "Learn more",
+    "viewAll": "See all stays",
+    "bedrooms": "{count, plural, one {# bedroom} other {# bedrooms}}",
+    "guests": "{count, plural, one {# guest} other {# guests}}",
+    "placeholderNote": "Placeholder figures — to be updated",
+    "currency": "SAR",
+    "perMonth": "per month",
+    "recommended": "Most popular",
+    "bookOn": "Book on {platform}",
+    "platforms": {
+      "airbnb": "Airbnb",
+      "gathern": "Gathern",
+      "booking": "Booking"
+    },
+    "opensNewTab": "(opens in a new tab)"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Furnished apartment management in Abha",
+      "title": "Hand over the keys. Clees handles the rest.",
+      "subtitle": "We prepare and clean your apartment to hotel standards, list it on Airbnb and Gathern, and take care of every guest — while you receive your income and report every month.",
+      "imageAlt": "A tidy furnished living room overlooking Abha's mountains",
+      "badge1": "Hotel-grade cleaning after every guest",
+      "badge2": "Clear monthly report",
+      "trustLine": "No evaluation fee • No commitment"
+    },
+    "trust": {
+      "title": "Clees in numbers",
+      "units": "Units under management",
+      "rating": "Average guest rating",
+      "occupancy": "Average occupancy",
+      "support": "Guest support"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Four steps and your apartment starts earning",
+      "steps": [
+        {
+          "title": "We evaluate",
+          "body": "We visit your apartment and give you a clear income estimate and what the unit needs."
+        },
+        {
+          "title": "We prepare & photograph",
+          "body": "Deep cleaning, hospitality supplies and professional photos that show it at its best."
+        },
+        {
+          "title": "We list & host",
+          "body": "We publish it, price it by season, and look after guests from booking to check-out."
+        },
+        {
+          "title": "You get paid & reported",
+          "body": "Every month you receive a detailed report and your earnings are transferred to you."
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Our services",
+      "title": "Two pillars, everything built on them",
+      "subtitle": "Choose cleaning only, or leave everything to us."
+    },
+    "calculator": {
+      "eyebrow": "Income estimator",
+      "title": "How much could your apartment earn?",
+      "subtitle": "Pick the neighborhood, bedrooms and furnishing level to see a rough monthly estimate.",
+      "neighborhood": "Neighborhood",
+      "bedrooms": "Bedrooms",
+      "furnishing": "Furnishing level",
+      "furnishingOptions": {
+        "basic": "Basic",
+        "good": "Good",
+        "premium": "Premium"
+      },
+      "resultTitle": "Estimated monthly income",
+      "highSeason": "High season",
+      "highSeasonHint": "Summer & holidays",
+      "lowSeason": "Low season",
+      "lowSeasonHint": "Rest of the year",
+      "occupancy": "Est. occupancy {value}%",
+      "range": "{min} – {max}",
+      "disclaimer": "A preliminary estimate, not an income guarantee. Actual income depends on location, setup, season and demand.",
+      "cta": "Get an accurate evaluation",
+      "bedroomsOption": "{count, plural, one {# bedroom} other {# bedrooms}}",
+      "method": "How it's calculated: the average nightly rate for your unit size × neighborhood and furnishing factors × expected occupancy for each season."
+    },
+    "packages": {
+      "eyebrow": "Packages",
+      "title": "A package that fits your apartment",
+      "subtitle": "Final pricing is set after the evaluation based on unit size and location.",
+      "perVisit": "per cleaning visit",
+      "ofRevenue": "of booking revenue",
+      "choose": "Choose package",
+      "items": {
+        "cleaning": {
+          "name": "Cleaning only",
+          "description": "You manage your bookings and want consistent hotel-grade cleaning.",
+          "features": [
+            "Hotel-grade cleaning after every check-out",
+            "Fresh linen and towels",
+            "Hospitality supplies restocked",
+            "Unit inspection with photo report",
+            "Flexible scheduling around your bookings"
+          ]
+        },
+        "management": {
+          "name": "Full management",
+          "description": "Hand us the keys and we run everything from listing to report.",
+          "features": [
+            "All cleaning & preparation services",
+            "Pro photos and listings on Airbnb, Gathern & Booking",
+            "Dynamic seasonal pricing",
+            "Guest messaging and 24/7 support",
+            "Self check-in and key handover",
+            "Maintenance follow-up",
+            "Monthly report and payouts"
+          ]
+        },
+        "management_plus": {
+          "name": "Full management Plus",
+          "description": "For owners who want top returns and a premium guest experience.",
+          "features": [
+            "Everything in Full management",
+            "Furnishing & setup consultation",
+            "Premium hospitality amenities",
+            "Scheduled preventive maintenance",
+            "Ongoing listing & review optimization",
+            "Dedicated account manager",
+            "Priority during peak seasons"
+          ]
+        }
+      }
+    },
+    "whyAbha": {
+      "eyebrow": "Why Abha?",
+      "title": "A city people visit to unwind",
+      "body": "Abha is one of the Kingdom's leading summer destinations. Its mild weather and mountain scenery draw families and visitors every year — and many prefer a furnished apartment over a hotel.",
+      "points": [
+        {
+          "title": "Mild summer weather",
+          "body": "When most cities heat up, Abha becomes a top pick for families."
+        },
+        {
+          "title": "Nature on the doorstep",
+          "body": "Al Soudah, Al Dhabab, the highlands and heritage villages are close by."
+        },
+        {
+          "title": "Seasons & events",
+          "body": "Holidays and tourism seasons drive demand for short stays."
+        },
+        {
+          "title": "Families want space",
+          "body": "A furnished apartment offers privacy, a kitchen and room a hotel can't."
+        }
+      ],
+      "imageAlt": "Illustration of Abha's misty mountains and heritage houses"
+    },
+    "units": {
+      "eyebrow": "Our stays",
+      "title": "Clean, tidy apartments, ready for guests",
+      "subtitle": "A sample of the units we manage across Abha."
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What people say",
+      "empty": "Real reviews will be added soon",
+      "emptyHint": "Reserved for a genuine review from an owner or guest"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Got a question?",
+      "subtitle": "Can't find your answer? Message us on WhatsApp and we'll get back to you quickly.",
+      "items": [
+        {
+          "q": "Who pays for cleaning?",
+          "a": "Usually the cleaning fee is added to the guest's booking on the platforms, so it doesn't come out of your pocket. On the Cleaning-only package it's charged per visit based on unit size — all spelled out in the contract."
+        },
+        {
+          "q": "How do I receive my earnings?",
+          "a": "We transfer your net income to your bank account on a [periodic/monthly] basis, along with a detailed report of every booking, revenue and expense — no surprises."
+        },
+        {
+          "q": "Can I use my apartment whenever I want?",
+          "a": "Of course. Tell us the dates you want for yourself or family and we'll block them on every platform so there are no conflicts."
+        },
+        {
+          "q": "Who covers damages?",
+          "a": "We inspect and photo-document the unit after every guest. If there's damage, we pursue the claim with the guest or the platform's host protection program. Responsibilities are clearly set out in the contract."
+        },
+        {
+          "q": "What licenses are required?",
+          "a": "Renting residential units to visitors requires a license from the Ministry of Tourism. We help you understand the requirements and prepare the unit, and always recommend checking the latest rules through the Ministry's official channels."
+        },
+        {
+          "q": "How long is the contract?",
+          "a": "The contract term is [term], renewable, with the option to end it with [notice period] notice. We want you to stay because you're happy, not because you're locked in."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Your apartment can start earning today",
+      "subtitle": "Get a free evaluation and receive a clear estimate and operating plan shortly.",
+      "button": "Get a free evaluation"
+    }
+  },
+  "services": {
+    "cleaning": {
+      "title": "Cleaning & preparation",
+      "subtitle": "Hotel-grade cleanliness after every guest",
+      "description": "Every guest walks in like they're the first. Our team follows a fixed checklist so the result is the same every single time.",
+      "features": [
+        "Thorough hotel-grade cleaning after every check-out",
+        "Fresh, ironed linen and towels",
+        "Hospitality supplies (soap, tissues, coffee & tea)",
+        "Unit inspection documented with photos",
+        "Sanitized kitchen and bathrooms"
+      ],
+      "imageAlt": "Folded towels and neatly arranged cleaning supplies"
+    },
+    "management": {
+      "title": "Full management",
+      "subtitle": "From listing to monthly report",
+      "description": "We run your apartment like a small hotel: we market it, price it smartly and look after its guests — you just follow the results.",
+      "features": [
+        "Listings on Airbnb, Gathern and Booking",
+        "Dynamic pricing by season and demand",
+        "Guest check-in and check-out",
+        "24/7 guest support",
+        "Maintenance follow-up",
+        "Monthly report and owner payouts"
+      ],
+      "imageAlt": "A furnished living room ready to welcome guests"
+    },
+    "page": {
+      "eyebrow": "Services",
+      "title": "Everything your apartment needs, in one place",
+      "subtitle": "Pick the service that suits you — or leave it all to us.",
+      "checklistEyebrow": "Checklist",
+      "checklistTitle": "What we do after every guest",
+      "checklistSubtitle": "A fixed checklist our team follows on every visit — so quality never depends on mood.",
+      "checklist": [
+        {
+          "area": "Living room",
+          "items": [
+            "Dust every surface",
+            "Clean floors and rugs",
+            "Arrange sofas and cushions",
+            "Clean glass and mirrors"
+          ]
+        },
+        {
+          "area": "Bedrooms",
+          "items": [
+            "Change sheets and pillowcases",
+            "Make beds hotel-style",
+            "Clean wardrobes and drawers",
+            "Check lighting and curtains"
+          ]
+        },
+        {
+          "area": "Kitchen",
+          "items": [
+            "Wash and put away dishes",
+            "Clean fridge and microwave",
+            "Sanitize counters and sink",
+            "Take out the trash"
+          ]
+        },
+        {
+          "area": "Bathrooms",
+          "items": [
+            "Fully sanitize sinks and toilets",
+            "Clean shower and glass",
+            "Fresh folded towels",
+            "Restock soap and tissues"
+          ]
+        },
+        {
+          "area": "Hospitality & checks",
+          "items": [
+            "Restock coffee, tea and water",
+            "Test appliances and Wi-Fi",
+            "Photo-document the condition",
+            "Freshen the unit"
+          ]
+        }
+      ],
+      "ctaTitle": "Not sure which service fits?",
+      "ctaBody": "Get a free evaluation and we'll recommend the best option."
+    }
+  },
+  "owners": {
+    "hero": {
+      "eyebrow": "For owners",
+      "title": "Your apartment works. You relax.",
+      "subtitle": "Full management for your furnished apartment in Abha: from setup and photos, to bookings and guests, all the way to your monthly report and payout.",
+      "imageAlt": "An apartment key symbolizing handing management to Clees",
+      "calcCta": "Estimate your income"
+    },
+    "whatWeDo": {
+      "eyebrow": "Full management",
+      "title": "What happens after you hand us the keys?",
+      "items": [
+        {
+          "title": "Setup & photos",
+          "body": "Deep cleaning, hospitality supplies and professional photography."
+        },
+        {
+          "title": "A strong listing",
+          "body": "Compelling bilingual descriptions, published on Airbnb, Gathern and Booking."
+        },
+        {
+          "title": "Smart pricing",
+          "body": "Rates adjusted by season, demand and events for the best return."
+        },
+        {
+          "title": "Happy guests",
+          "body": "We answer inquiries, coordinate check-in/out and support guests 24/7."
+        },
+        {
+          "title": "Consistent cleanliness",
+          "body": "Hotel-grade cleaning after every guest with a photo-documented check."
+        },
+        {
+          "title": "Maintenance",
+          "body": "We spot issues early, follow up on repairs and keep you posted."
+        }
+      ]
+    },
+    "deliverables": {
+      "eyebrow": "What you get",
+      "title": "Full transparency, every month",
+      "items": [
+        {
+          "title": "Detailed monthly report",
+          "body": "Bookings, revenue, expenses, occupancy and guest reviews."
+        },
+        {
+          "title": "Payouts",
+          "body": "Your net income transferred to your bank account on a fixed schedule."
+        },
+        {
+          "title": "Instant updates",
+          "body": "We contact you directly about anything important for your unit."
+        },
+        {
+          "title": "Owner dashboard",
+          "body": "An online dashboard to follow your apartment's performance live.",
+          "soon": "Coming soon"
+        }
+      ]
+    },
+    "compare": {
+      "eyebrow": "Comparison",
+      "title": "Self-managed or with Clees?",
+      "aspect": "Aspect",
+      "self": "Managing it yourself",
+      "clees": "With Clees",
+      "rows": [
+        {
+          "aspect": "Pricing",
+          "self": "One fixed rate all year",
+          "clees": "Dynamic pricing by season and demand"
+        },
+        {
+          "aspect": "Guest communication",
+          "self": "Your phone rings day and night",
+          "clees": "Our team replies around the clock"
+        },
+        {
+          "aspect": "Cleaning",
+          "self": "Finding a cleaner every time",
+          "clees": "Hotel-grade, consistent standards"
+        },
+        {
+          "aspect": "Platforms",
+          "self": "Usually just one",
+          "clees": "Airbnb, Gathern and Booking"
+        },
+        {
+          "aspect": "Photos & listing",
+          "self": "Quick phone photos",
+          "clees": "Pro photos, bilingual copy"
+        },
+        {
+          "aspect": "Maintenance",
+          "self": "You chase it yourself",
+          "clees": "We handle it and keep you posted"
+        },
+        {
+          "aspect": "Accounting",
+          "self": "Scattered transfers",
+          "clees": "One clear monthly report"
+        },
+        {
+          "aspect": "Your time",
+          "self": "Hours every week",
+          "clees": "Not a minute"
+        }
+      ]
+    },
+    "formSection": {
+      "eyebrow": "Free evaluation",
+      "title": "Get a free evaluation",
+      "subtitle": "Fill in the details and we'll contact you within [timeframe] with a clear estimate and operating plan.",
+      "points": [
+        "No fees, no commitment",
+        "An on-site visit to your apartment",
+        "An income estimate based on your unit"
+      ]
+    }
+  },
+  "stays": {
+    "eyebrow": "For guests",
+    "title": "Clean, comfortable stays in Abha",
+    "subtitle": "Every unit is cleaned to hotel standards before you arrive. Choose a neighborhood and size, then book directly on your preferred platform.",
+    "filterNeighborhood": "Neighborhood",
+    "filterBedrooms": "Bedrooms",
+    "all": "All",
+    "allNeighborhoods": "All neighborhoods",
+    "bedroomsAny": "Any",
+    "bedroomsN": "{count, plural, one {# bedroom} other {# bedrooms}}",
+    "bedroomsPlus": "4+ bedrooms",
+    "results": "{count, plural, =0 {No stays} one {# stay} other {# stays}}",
+    "empty": "No stays match these filters. Try another neighborhood or message us on WhatsApp and we'll help.",
+    "reset": "Clear filters",
+    "filtersLabel": "Filter stays"
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Started in Abha, for Abha",
+    "intro": "[Draft copy — edit] Clees is a simple idea: many owners have furnished apartments that could earn great income, but no time to manage bookings, cleaning and guests. And many visitors look for a clean, reliable apartment and struggle to find one. We connect the two.",
+    "story": "[Draft copy — edit] We work with a hotel mindset and a home's warmth: consistent cleaning standards, fast communication and full transparency with owners on every riyal. Our goal: every owner sleeps easy, and every guest leaves planning to return.",
+    "imageAlt": "Illustration of Abha's mountain landscape",
+    "valuesTitle": "Our values",
+    "values": [
+      {
+        "title": "Cleanliness",
+        "body": "Not just a service — it's in our name. Every unit is cleaned against a fixed checklist."
+      },
+      {
+        "title": "Transparency",
+        "body": "Clear reports, real numbers and no hidden fees. You know where every riyal goes."
+      },
+      {
+        "title": "Attention to detail",
+        "body": "From arranging cushions to the welcome message — small details make five-star reviews."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "We'd love to hear from you",
+    "subtitle": "Whether you're an owner or a guest, our team is ready to help.",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "hours": "Working hours",
+    "mapTitle": "Map of Abha",
+    "formTitle": "Send us a message"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "phone": "Mobile number",
+    "phonePlaceholder": "05xxxxxxxx",
+    "email": "Email (optional)",
+    "emailPlaceholder": "name@example.com",
+    "neighborhood": "Neighborhood",
+    "neighborhoodPlaceholder": "Select neighborhood",
+    "otherNeighborhood": "Other",
+    "bedrooms": "Bedrooms",
+    "bedroomsPlaceholder": "Select",
+    "bedroomsOption": "{count, plural, one {# bedroom} other {# bedrooms}}",
+    "bedroomsMore": "5+ bedrooms",
+    "furnished": "Is the apartment furnished?",
+    "furnishedOptions": {
+      "yes": "Yes, furnished",
+      "partly": "Partly furnished",
+      "no": "No, unfurnished"
+    },
+    "service": "Service needed",
+    "serviceOptions": {
+      "cleaning": "Cleaning only",
+      "management": "Full management",
+      "management_plus": "Full management Plus",
+      "not_sure": "Not sure — help me choose"
+    },
+    "notes": "Notes (optional)",
+    "notesPlaceholder": "Anything you'd like us to know about the apartment",
+    "message": "Your message",
+    "messagePlaceholder": "How can we help?",
+    "topic": "Topic",
+    "topicOptions": {
+      "owner": "I'm an apartment owner",
+      "guest": "I'm a guest / want to book",
+      "other": "General inquiry"
+    },
+    "submit": "Send request",
+    "submitContact": "Send message",
+    "submitting": "Sending...",
+    "privacyNote": "By submitting you agree to our <link>Privacy Policy</link>.",
+    "honeypot": "Leave this field empty",
+    "prefilled": "We pre-filled some details from the estimator — feel free to edit.",
+    "errors": {
+      "required": "This field is required",
+      "name": "Please enter your name (at least 2 characters)",
+      "phone": "Mobile number must be in the format 05xxxxxxxx",
+      "email": "Invalid email address",
+      "message": "Message is too short",
+      "generic": "Something went wrong. Please try again or reach us on WhatsApp.",
+      "rateLimit": "Too many requests. Please try again shortly."
+    },
+    "success": {
+      "title": "Got it — thank you, {name}!",
+      "body": "The Clees team will contact you soon. Want to speed things up? Continue the conversation on WhatsApp.",
+      "whatsapp": "Continue on WhatsApp",
+      "again": "Send another request",
+      "contactTitle": "Message received — thank you, {name}!",
+      "contactBody": "We'll get back to you as soon as possible."
+    },
+    "whatsappMessage": "Hi, I'm {name}. I just requested an apartment evaluation on your website:\n• Neighborhood: {neighborhood}\n• Bedrooms: {bedrooms}\n• Furnished: {furnished}\n• Service: {service}\nMy number: {phone}"
+  },
+  "footer": {
+    "about": "Clees — short-term rental management and cleaning for furnished apartments in Abha. Hand over the keys; we handle the rest.",
+    "explore": "Explore",
+    "company": "Company",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cr": "Commercial Registration",
+    "license": "Ministry of Tourism License",
+    "vat": "VAT Number",
+    "rights": "© {year} Clees. All rights reserved.",
+    "social": "Follow us",
+    "socialNames": {
+      "instagram": "Instagram",
+      "x": "X",
+      "tiktok": "TikTok",
+      "snapchat": "Snapchat"
+    }
+  },
+  "legal": {
+    "updated": "Last updated: {date}",
+    "templateNote": "This is a draft template and requires legal review before adoption.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This policy explains how [Company legal name] (\"Clees\", \"we\") collects, processes and protects your personal data when you use our website and services, in accordance with the Saudi Personal Data Protection Law (PDPL) and its Implementing Regulations.",
+      "sections": [
+        {
+          "title": "1. Data we collect",
+          "body": [
+            "Data you provide directly: name, mobile number, email, unit details (neighborhood, bedrooms, furnishing) and any notes you send.",
+            "Limited technical data such as IP address and browser type, used for security and abuse prevention.",
+            "Analytics data (if enabled) via tools such as Google Analytics or Meta Pixel, only once activated and in compliance with applicable law."
+          ]
+        },
+        {
+          "title": "2. Purposes of processing",
+          "body": [
+            "Contacting you about your evaluation request or inquiry.",
+            "Providing our services and performing contracts with you.",
+            "Improving our website and services.",
+            "Complying with legal requirements."
+          ]
+        },
+        {
+          "title": "3. Legal basis",
+          "body": [
+            "We process your data based on your consent, to perform a contract you are party to, for a legitimate interest that does not override your rights, or to meet a legal obligation."
+          ]
+        },
+        {
+          "title": "4. Sharing data",
+          "body": [
+            "We do not sell your personal data.",
+            "We may share limited data with service providers acting on our behalf (such as email delivery and hosting) under contractual obligations to protect it.",
+            "We may disclose data where legally required by a competent authority."
+          ]
+        },
+        {
+          "title": "5. Transfers outside the Kingdom",
+          "body": [
+            "Some data may be processed by providers outside the Kingdom; in that case we comply with the PDPL controls and the Regulation on Personal Data Transfer outside the Kingdom."
+          ]
+        },
+        {
+          "title": "6. Retention",
+          "body": [
+            "We keep data only as long as needed for the purpose it was collected for, or as required by law, then securely destroy it."
+          ]
+        },
+        {
+          "title": "7. Your rights",
+          "body": [
+            "The right to be informed about how your data is collected and processed.",
+            "The right to access your data and obtain a copy.",
+            "The right to request correction or updating of your data.",
+            "The right to request destruction of your data once no longer needed.",
+            "The right to withdraw your consent at any time."
+          ]
+        },
+        {
+          "title": "8. Security",
+          "body": [
+            "We apply appropriate technical and organizational measures to protect your data from unauthorized access, loss or leakage."
+          ]
+        },
+        {
+          "title": "9. Contact",
+          "body": [
+            "For any question or request regarding your personal data, email us at {email}. You may also lodge a complaint with the competent authority (Saudi Data & AI Authority, SDAIA)."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "intro": "By using the Clees website you agree to the following terms. Please read them carefully.",
+      "sections": [
+        {
+          "title": "1. About the website",
+          "body": [
+            "This website is owned by [Company legal name], Commercial Registration No. [CR number], and presents furnished-unit management and cleaning services and receives evaluation requests."
+          ]
+        },
+        {
+          "title": "2. Information & estimates",
+          "body": [
+            "Figures shown in the income estimator are preliminary and for illustration only; they are not a guarantee of any income.",
+            "Prices and packages may change; the signed contract between the parties is the final reference."
+          ]
+        },
+        {
+          "title": "3. Bookings",
+          "body": [
+            "Guest bookings are made through third-party platforms (such as Airbnb, Gathern and Booking) and are subject to those platforms' terms and cancellation/refund policies."
+          ]
+        },
+        {
+          "title": "4. Acceptable use",
+          "body": [
+            "You may not use the website for any unlawful purpose, submit false information, or attempt to harm or disrupt the website."
+          ]
+        },
+        {
+          "title": "5. Intellectual property",
+          "body": [
+            "All content, logos and designs on the website belong to Clees and may not be used without prior written permission."
+          ]
+        },
+        {
+          "title": "6. Limitation of liability",
+          "body": [
+            "We strive to keep information accurate but are not liable for decisions made on it without consulting us."
+          ]
+        },
+        {
+          "title": "7. External links",
+          "body": [
+            "The website may contain links to external sites whose content and policies we do not control."
+          ]
+        },
+        {
+          "title": "8. Governing law",
+          "body": [
+            "These terms are governed by the laws of the Kingdom of Saudi Arabia, and the competent courts of the Kingdom have jurisdiction over any dispute."
+          ]
+        },
+        {
+          "title": "9. Changes & contact",
+          "body": [
+            "We may update these terms from time to time; the version published on this page applies. Contact: {email}."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you're looking for may have moved or no longer exists.",
+    "home": "Back to home"
+  }
+}
